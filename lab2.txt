@@ -1,0 +1,21 @@
++CS452/EE465 Computer Graphics Spring 2015
+++Lab #2
+++
+++due: Tuesday, 2/17/15 at midnight
+++
+++Write a WebGL application that will move a 2D shape using the ASDW and 1 keys.
+++
+++Create an interesting (but simple) 2D shape (avatar) that uses at least three different colors. Move the avatar
+++on the canvas using ASDW (a - move left; s - move down; d - move right; w - move up). Also, hitting the "1" key will
+++move the avatar back to the origin. You may continue to work in the default space (-1.0 to +1.0).
+++
+++Assumptions:
+++1. vertex coordinates will be in the range [-1.0, +1.0]
+++2. use webgl-utils.js, initShaders.js and MV.js from Angel
+++3. three files are required in the solution: lab1.html, lab1.js and lab1.README.txt. The lab1.README.txt file
+++will contain your name and date along with a brief description of your solution. Note, however, that all
+++files should contain a comment including your name and date.
+++
+++Challenges: (entirely optional, but fun)
+++1. prevent the avatar from moving out of the view space
+++2. add some other non-moving shapes, but you don't need to use collision detection (yet).
